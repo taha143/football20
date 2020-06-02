@@ -48,10 +48,10 @@
       <input class="control" type="tel" id="num" placeholder="Phone number" maxlength="11" minlength="11" pattern="(?=.*\d).{11}" title="only numbers is allowed" required>
         
       <label class="control">Adress:</label>
-      <input class="control" type="text" placeholder="Adress" maxlength="100" minlength="3" required>
+      <input class="control" type="text" id="text" placeholder="Adress" maxlength="100" minlength="3" required>
           
       <label class="control">Gender:</label>
-      <select class="control" required>
+      <select class="control" id="gender" required>
         <option value="">select</option>
         <option value="male">Male</option>
         <option value="female">Female</option>
@@ -59,7 +59,7 @@
         
       <div class="control">
         <input id="submit" type="submit">
-        <input type="reset"> 
+        <input id="res" type="reset"> 
       </div>              
     </form>
     <script>
@@ -88,6 +88,5 @@
           return true;
         }    
         }
-        
     </script>   
   </body>
